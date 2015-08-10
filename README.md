@@ -1,3 +1,3 @@
 # CoinRecognition
-The prject is to implement the program that counts how many coins and bills are in a given image. It is implemented using python 
-and opencv python binding. The project detail is in the ipython notebook in the list or click this [link](https://github.com/munjo5746/CoinRecognition/blob/master/Digital%20Library%20Project.ipynb).
+The project is implementation of a program that counts how many coins and bills are in a given image. It is implemented using python
+and OpenCv python binding. The idea is that from a digital image, we first threshold it. Then, find the contour of the objects in the image. Once this is done, we can extract the outer boundary of each object and find rectangular boxes around each object. The final step is extract unique features in each rectangles and match them with the labeled features. The project detail is in the ipython notebook in the list or click this [link](https://github.com/munjo5746/CoinRecognition/blob/master/Digital%20Library%20Project.ipynb).
